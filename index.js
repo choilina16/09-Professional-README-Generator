@@ -40,7 +40,7 @@ inquirer
         {
             type: 'input',
             name: 'test',
-            message: 'Enter the project test instructions',
+            message: 'Enter the test instructions',
         },
         {
             type: 'list',
@@ -78,12 +78,12 @@ const writeFile = (answers) =>
 ${answers.description}
 
 ## Table of Contents
-1. [Installation Instructions] (#installation-instructions)
-2. [Usage Information] (#usage-information)
-3. [Contribution Guidelines] (#contribution-guidelines)
-4. [Test Instructions] (#test-instructions)
-5. [License] (#license)
-6. [Questions] (#questions)
+1. [Installation Instructions](#installation-instructions)
+2. [Usage Information](#usage-information)
+3. [Contribution Guidelines](#contribution-guidelines)
+4. [Test Instructions](#test-instructions)
+5. [License](#license)
+6. [Questions](#questions)
 
 ## Installation Instructions
 ${answers.installation}
