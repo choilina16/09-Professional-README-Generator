@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 // const questions = [];
@@ -10,28 +11,32 @@ inquirer
         {
             type: 'input',
             name: 'project',
-            message: 'Enter the project title',
+            message: 'Enter the title',
         },
         {
             type: 'input',
             name: 'description',
-            message: 'Enter the project description',
+            message: 'Enter the description',
         },
+        // this is probably where i need to tell user to download inquirer to make changes to this 
         {
             type: 'input',
             name: 'installation',
-            message: 'Enter the project installation instructions',
+            message: 'Enter the installation instructions',
         },
+        // what is this code used for
         {
             type: 'input',
             name: 'usage',
-            message: 'Enter the project usage information',
+            message: 'Enter the usage information',
         },
         {
-            type: 'input',
+            type: 'list',
             name: 'contribution',
-            message: 'Enter the project contribution guidelines',
+            message: 'Select the contribution guidelines from the list below',
+            choices: ['Pull requests are welcome! Make it your own', 'Pull requests are welcome. Please reach out before making major changes', 'Please reach out before making a change']
         },
+        // no idea what this is for either lol
         {
             type: 'input',
             name: 'test',
@@ -41,7 +46,7 @@ inquirer
             type: 'list',
             name: 'license',
             message: 'Select the license from the list below',
-            choices: ['MIT', 'GNU General Public License', 'Apache', 'Other'],
+            choices: ['MIT', 'GNU GPL', 'Apache'],
         },
         {
             type: 'input',
