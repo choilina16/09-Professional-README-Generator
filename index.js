@@ -1,10 +1,7 @@
-// TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+// calling to the generateMarkdown js file 
 const generateMarkdown = require('./utils/generateMarkdown');
-
-// TODO: Create an array of questions for user input
-// const questions = [];
 
 inquirer
     .prompt([
@@ -46,7 +43,7 @@ inquirer
             type: 'list',
             name: 'license',
             message: 'Select the license from the list below',
-            choices: ['MIT', 'GNU GPL', 'Apache'],
+            choices: ['MIT', 'GPL', 'Apache'],
         },
         {
             type: 'input',
@@ -63,16 +60,14 @@ inquirer
         const readMeContent = writeFile(answers);
 
         fs.writeFile('README.md', readMeContent, (err) =>
-        err ? console.log(err) : console.log('README.md was successfully created. Have fun coding :) !')
+        err ? console.log(err) : console.log('README.md was successfully generated. Have fun coding :) !')
         );
     });
 
-
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
 const writeFile = (answers) => 
+
 `# ${answers.project} 
+[![License: ${answers.license}](https://img.shields.io/github/${answers.license}/choilina16/09-Professional-README-Generator?style=flat-square)](link to license)
 
 ## Description
 ${answers.description}
@@ -106,11 +101,4 @@ ${answers.license}
 
     Q: Where can I find more respoistories from this developer?
     A: Please check out my other repositories at ${answers.github}
-
 `;
-
-// TODO: Create a function to initialize app
-// function init() {}
-
-// Function call to initialize app
-// init();

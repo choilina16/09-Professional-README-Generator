@@ -1,8 +1,8 @@
-# fdsf 
-[![License: Apache]
+# dsa 
+[![License: MIT](https://img.shields.io/github/MIT/choilina16/09-Professional-README-Generator?style=flat-square)](link to license)
 
 ## Description
-fds
+dsa
 
 ## Table of Contents
 1. [Installation Instructions](#installation-instructions)
@@ -13,23 +13,23 @@ fds
 6. [Questions](#questions)
 
 ## Installation Instructions
-fds
+dsa
 
 ## Usage Information 
-fds
+dsa
 
 ## Contribution Guidelines 
 Pull requests are welcome! Make it your own
 
 ## Test Instructions 
-fds
+dsa
 
 ## License 
-Apache
+MIT
 
 ## Questions
     Q: Where can I email the developer? 
-    A: Please email me at fds.
+    A: Please email me at dsa.
 
     Q: Where can I find more respoistories from this developer?
-    A: Please check out my other repositories at fds
+    A: Please check out my other repositories at dsa
