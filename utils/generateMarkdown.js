@@ -1,9 +1,11 @@
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
-// const writeFile = (answers) => 
 
-`# ${answers.project} 
-[![License: ${answers.license}](https://img.shields.io/github/${answers.license}/choilina16/09-Professional-README-Generator?style=flat-square)]
+// totally forgot to the return in there and BCS-Mia helped me out so much :) 
+// returns the actual content for the .writeFile README.md
+// got the badge from shields.com so that it's easier to create
+return `# ${answers.project} 
+[![License: ${answers.license}](https://img.shields.io/github/${answers.license}/choilina16/09-Professional-README-Generator?style=flat-square)](put link in here for license?)
 
 ## Description
 ${answers.description}
@@ -40,23 +42,10 @@ ${answers.license}
 `;
 }
 
-// found the images for the badges on this github
-// https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+// function to render the license link inside the badge
+function renderLicenseLink(license) {}
 
 
-// objects destructuring ??
-// nested objects so to hold the links for the badge and license
-// const licenseBadge = {
-//   MIT: {
-//     link: 'https://opensource.org/licenses/MIT',
-//   },
-//   GPL: {
-//     link: 'https://www.gnu.org/licenses/gpl-3.0',
-//   },
-//   Apache: {
-//     link: 'https://opensource.org/licenses/Apache-2.0',
-//   },
-// }
 
 // const indexJs = require('../index');
 // console.log(licenseBadge);
@@ -80,4 +69,22 @@ ${answers.license}
 // }
 
 
-// module.exports = generateMarkdown;
+module.exports = generateMarkdown;
+
+
+// found the images for the badges on this github
+// https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+
+// objects destructuring ??
+// nested objects so to hold the links for the badge and license
+// const licenseBadge = {
+//   MIT: {
+//     link: 'https://opensource.org/licenses/MIT',
+//   },
+//   GPL: {
+//     link: 'https://www.gnu.org/licenses/gpl-3.0',
+//   },
+//   Apache: {
+//     link: 'https://opensource.org/licenses/Apache-2.0',
+//   },
+// }
