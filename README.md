@@ -1,5 +1,5 @@
-# fdsf 
-[![License: Apache]
+# dsf 
+[![License: MIT](https://img.shields.io/github/MIT/choilina16/09-Professional-README-Generator?style=flat-square)](link to license)
 
 ## Description
 fds
@@ -25,7 +25,7 @@ Pull requests are welcome! Make it your own
 fds
 
 ## License 
-Apache
+MIT
 
 ## Questions
     Q: Where can I email the developer? 
