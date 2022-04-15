@@ -24,10 +24,21 @@ const licenseBadge = {
   },
 }
 
-// const indexJs = require('../index');
+const indexJs = require('../index');
 console.log(licenseBadge);
 
-function renderLicenseBadge (license) {
+
+
+// TODO: Create a function to generate markdown for README
+// function generateMarkdown(data) {
+//   renderLicenseBadge();
+
+//   return `# ${data.title}
+// `;
+// }
+
+function generateMarkdown(license) {
+  // renderLicenseBadge();
   if (license == 'MIT') {
     // const {badge, license} = licenseBadge.MIT.link;
     return licenseBadge.MIT.link;
@@ -40,18 +51,9 @@ function renderLicenseBadge (license) {
     // const {badge, license} = licenseBadge.Apache.link;
     return licenseBadge.Apache.link;
   }
-} 
-
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  renderLicenseBadge();
-
-  return `# ${data.title}
-`;
 }
 
+//   return `# ${data.title}
+// `;
+
 module.exports = generateMarkdown;
-
-
-
-
