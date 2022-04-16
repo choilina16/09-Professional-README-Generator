@@ -1,11 +1,12 @@
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
-
+  const renderLink = renderLicenseLink ();
 // totally forgot to the RETURN in there and BCS-Mia helped me out so much :) 
 // returns the actual content for the .writeFile README.md
 // got the badge from shields.com so that it's easier to create
+// another BSC-Erik help! showed me how to throw a function inside a template literal ${function(parameter)}
 return `# ${answers.project} 
-[![License: ${answers.license}](https://img.shields.io/github/${answers.license}/choilina16/09-Professional-README-Generator?style=flat-square)](put link in here for license?)
+${renderLink} 
 
 ## Description
 ${answers.description}
@@ -43,18 +44,17 @@ ${answers.license}
 }
 
 // function to render the license link inside the badge
-function renderLicenseLink(license) {
+// got the links for the badges here -> https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
-  licenseLink = '';
+function renderLicenseLink(license) {
   
-  if (answers.license == 'MIT') {
-    return 'https://opensource.org/licenses/MIT';
+  if (license == 'MIT') {
+    return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+  } else if (license == 'GPL') {
+    return '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
+  } else if (license == 'Apache') {
+    return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
   }
-  if (answer.license == 'GPL') {
-    return 'https://www.gnu.org/licenses/gpl-3.0';
-  }
-  if (answer.license == 'Apache')
-    return 'https://opensource.org/licenses/Apache-2.0'
 }
 
 module.exports = generateMarkdown;
