@@ -1,12 +1,14 @@
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
-  const renderLink = renderLicenseLink (answers.license);
+  // calling the function to render the license link. putting it inside a variable so I can call it inside the temperate literal
+  // parameters needs to be answers.license
+  const renderBadge = renderLicenseLink (answers.license);
 // totally forgot to the RETURN in there and BCS-Mia helped me out so much :) 
 // returns the actual content for the .writeFile README.md
-// got the badge from shields.com so that it's easier to create
-// another BSC-Erik help! showed me how to throw a function inside a template literal ${function(parameter)}
+// another BSC-Val help! showed me how to put a function inside the temperate literal 
 return `# ${answers.project} 
-${renderLink} 
+
+${renderBadge} 
 
 ## Description
 ${answers.description}
@@ -48,6 +50,7 @@ ${answers.license}
 
 function renderLicenseLink(license) {
   
+  // if statement so that I can return the correct link based on the user input
   if (license == 'MIT') {
     return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
   } else if (license == 'GPL') {
@@ -57,4 +60,5 @@ function renderLicenseLink(license) {
   }
 }
 
+// exports the info from this file to the index.js file
 module.exports = generateMarkdown;

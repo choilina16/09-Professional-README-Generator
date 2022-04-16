@@ -68,4 +68,5 @@ function init () {
             );
         });
 }
+// calling the function
 init();
