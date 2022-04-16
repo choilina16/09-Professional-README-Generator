@@ -62,8 +62,6 @@ function init () {
             },
         ])
         .then((answers) => {
-            // const generateMarkdown = writeFile(answers);
-
             // using .writeFile to actually create the readme.md file from the answers given from user 
             fs.writeFile('README.md', generateMarkdown(answers), (err) =>
             err ? console.log(err) : console.log('README.md was successfully generated. Have fun coding :) !')

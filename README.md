@@ -1,5 +1,6 @@
-# fs 
-undefined 
+# fds 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+
 ## Description
 fds
 
@@ -15,20 +16,20 @@ fds
 fds
 
 ## Usage Information 
-fd
+fds
 
 ## Contribution Guidelines 
 Pull requests are welcome! Make it your own
 
 ## Test Instructions 
-dfds
+fds
 
 ## License 
 MIT
 
 ## Questions
     Q: Where can I email the developer? 
-    A: Please email me at fd.
+    A: Please email me at fds.
 
     Q: Where can I find more respoistories from this developer?
-    A: Please check out my other repositories at sd
+    A: Please check out my other repositories at fs
