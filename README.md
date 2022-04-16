@@ -1,8 +1,9 @@
-# fds 
+# README Generator 
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 ## Description
-fds
+This will help you generate a professional README through a series of prompts.
 
 ## Table of Contents
 1. [Installation Instructions](#installation-instructions)
@@ -13,23 +14,23 @@ fds
 6. [Questions](#questions)
 
 ## Installation Instructions
-fds
+Please use npm i in order to install inquirer
 
 ## Usage Information 
-fds
+This will This will help you generate a professional README through a series of prompts.
 
 ## Contribution Guidelines 
 Pull requests are welcome! Make it your own
 
 ## Test Instructions 
-fds
+Test :) 
 
 ## License 
 MIT
 
 ## Questions
     Q: Where can I email the developer? 
-    A: Please email me at fds.
+    A: Please email me at choilina16@gmail.com.
 
     Q: Where can I find more respoistories from this developer?
-    A: Please check out my other repositories at fs
+    A: Please check out my other repositories at choilina16

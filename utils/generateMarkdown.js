@@ -1,7 +1,7 @@
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
   // calling the function to render the license link. putting it inside a variable so I can call it inside the temperate literal
-  // parameters needs to be answers.license
+  // parameters needs to be answers.license...when I left it blank it was giving me undef
   const renderBadge = renderLicenseLink (answers.license);
 // totally forgot to the RETURN in there and BCS-Mia helped me out so much :) 
 // returns the actual content for the .writeFile README.md
