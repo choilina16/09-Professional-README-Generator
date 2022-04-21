@@ -5,6 +5,10 @@
 ## Description
 This will help you generate a professional README through a series of prompts.
 
+## Visuals
+https://user-images.githubusercontent.com/100983245/164471951-a59144b3-f26b-4d6c-ba24-7802c024f277.mp4
+
+
 ## Table of Contents
 1. [Installation Instructions](#installation-instructions)
 2. [Usage Information](#usage-information)
