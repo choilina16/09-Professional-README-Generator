@@ -23,14 +23,14 @@ This will This will help you generate a professional README through a series of 
 Pull requests are welcome! Make it your own
 
 ## Test Instructions 
-Test :) 
+Test :)
 
 ## License 
 MIT
 
 ## Questions
-    Q: Where can I email the developer? 
-    A: Please email me at choilina16@gmail.com.
-
-    Q: Where can I find more respoistories from this developer?
-    A: Please check out my other repositories at choilina16
+Where can I email the developer?</br>
+Please email me at <a href="mailto:choilina16">choilina16</a>.</br>
+</br>
+Where can I find more repositories from this developer?</br>
+Please check out my other repositories at [Github](https://github.com/choilina16@gmail.com).</br>
