@@ -37,11 +37,11 @@ ${answers.test}
 ${answers.license}
 
 ## Questions
-    Q: Where can I email the developer? 
-    A: Please email me at <a href="mailto:${answers.github}">${answers.github}</a>.
-
-    Q: Where can I find more repositories from this developer?
-    A: Please check out my other repositories at [Github](https://github.com/${answers.email}).
+Where can I email the developer?</br>
+Please email me at <a href="mailto:${answers.github}">${answers.github}</a>.</br>
+</br>
+Where can I find more repositories from this developer?</br>
+Please check out my other repositories at [Github](https://github.com/${answers.email}).</br>
 `;
 }
 
