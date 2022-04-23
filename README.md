@@ -6,7 +6,6 @@
 This will help you generate a professional README through a series of prompts.
 
 ## Visuals
-![Note-Taker](https://user-images.githubusercontent.com/100983245/164864627-6dab32dc-6c2a-4b73-b6e2-c2fac34173ce.png)
 https://user-images.githubusercontent.com/100983245/164471951-a59144b3-f26b-4d6c-ba24-7802c024f277.mp4
 
 
